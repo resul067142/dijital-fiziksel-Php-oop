@@ -1,6 +1,5 @@
 <?php
-
-
+//rsl tst
 // Shippable interface tanımı
 interface Shippable {
 public function getWeight();

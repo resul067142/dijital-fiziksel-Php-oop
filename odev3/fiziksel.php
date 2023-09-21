@@ -3,11 +3,18 @@ class fiziksel extends Urun implements Kargolanabilir {
     protected $agirlik;
     protected $adi;
     protected $fiyat;
-    public function __construct($adi, $fiyat, $agirlik) {
-        parent::__construct($adi, $fiyat);
+    protected $fiyatı;
+
+    /**
+     * @param $agirlik
+     * @param $adi
+     * @param $fiyat
+     */
+    public function __construct($agirlik, $adi, $fiyat)
+    {
         $this->agirlik = $agirlik;
+        $this->adi = $adi;
+        $this->fiyat = $fiyat;
     }
-    public function getAgirlik() {
-        return $this->agirlik;
-    }
+
 }
