@@ -1,11 +1,12 @@
 <?php
 // Aşagıda belirtilen php uzantılı dosyaları index.php dosyasına dahil ettik.
+
 include  'Product.php';
 include  'Shippable.php';
 include  'Downloadable.php';
 include  'Mailable.php';
-include 'fiziksel.php';
-include 'dijital.php';
+include  'fiziksel.php';
+include  'dijital.php';
 include  'Sepet.php';
 
 $gomlek =new fiziksel("Gömlek", 100, 0.5);
